@@ -1,0 +1,342 @@
+@font-face {
+    font-family: "ContrailOne-Regular";
+    src: url(../fonts/ContrailOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "RobotoMono-Regular";
+    src: url(../fonts/RobotoMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-Light";
+    src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+/* icons */
+
+.github {
+    background-image: url("../images/icons/icon-github.svg");
+    background-repeat: no-repeat;
+}
+.unsplash {
+    background-image: url("../images/icons/icon-unplash.svg");
+    background-repeat: no-repeat;
+}
+.email {
+    background-image: url("../images/icons/icon-email.svg");
+    background-repeat: no-repeat;
+}
+.twitter {
+    background-image: url("../images/icons/icon-twitter.svg");
+    background-repeat: no-repeat;
+}
+.instagram {
+    background-image: url("../images/icons/icon-instagram.svg");
+    background-repeat: no-repeat;
+}
+.linkedin {
+    background-image: url("../images/icons/icon-linkedin.svg");
+    background-repeat: no-repeat;
+}
+.moon {
+    background-image: url("../images/icons/icon-moon.svg");
+    background-repeat: no-repeat;
+}
+.sun {
+    background-image: url("../images/icons/icon-sun.svg");
+    background-repeat: no-repeat;
+}
+
+/* base */
+
+h1 {
+    font-family: "ContrailOne-Regular";
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+h2 {
+    font-family: "ContrailOne-Regular";
+    font-size: 2rem;
+    margin: 0;
+}
+
+h3 {
+    font-family: "Roboto-Bold";
+    margin: 0;
+}
+
+p {
+    font-family: "Roboto-Regular";
+    font-size: 1.2rem;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+button:focus {
+    background-color: initial;
+}
+
+.row {
+    margin-bottom: 0;
+}
+
+/* helper classes */
+
+.section {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.banner-image {
+    height: 300px;
+}
+
+/* nav */
+
+nav, #mobile-nav {
+    font-family: "RobotoMono-Regular";
+}
+
+nav li {
+    height: 64px;
+}
+
+.btn-toggle-scheme {
+    width: 100%;
+    height: 56px;
+    padding: 0px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-toggle-scheme .icon {
+    display: block;
+    background-size: 100%;
+    width: 20px;
+    height: 20px;
+}
+.btn-toggle-scheme:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+
+/* bio */
+
+.bio-header-desktop {
+    display: none;
+    margin: 45px 0;
+}
+
+.bio-header-mobile {
+    margin: 25px 0;
+}
+
+.bio-name {
+    font-family: "ContrailOne-Regular";
+    font-size: 3rem;
+    margin: 0;
+}
+
+.bio-title {
+    font-family: "RobotoMono-Regular";
+    font-size: 1.4rem;
+    margin: 20px 0;
+}
+
+.bio-location {
+    font-family: "Roboto-Medium";
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.bio-header-desktop .bio-profile-image {
+    position: absolute;
+    height: 115px !important;
+    left: 20px;
+    top: 115px;
+}
+
+.bio-header-mobile .bio-profile-image {
+    height: 100px;
+    width: 100px;
+    margin: 15px 0;
+}
+
+/* socials */
+
+.bio-social {
+    color: #FFF;
+    padding: 25px 0;
+}
+
+.bio-social-header {
+    margin-bottom: 10px;
+}
+
+.bio-social-icon-container {
+    display: flex;
+    justify-content: center;
+}
+
+.bio-social-icon {
+    width: 150px;
+    height: 150px;
+}
+
+.bio-social-icon a {
+    display: block;
+    color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+.bio-social-icon a:hover, .bio-social-icon a:focus {
+    background-color: rgba(0,0,0,0.1);
+    text-decoration: none;
+}
+
+.bio-social-icon .icon.github {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+.bio-social-icon .icon.unsplash {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.bio-social-name {
+    font-family: "Roboto-Regular";
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100%;
+    display: block;
+}
+
+/* footer */
+
+footer {
+    font-family: "RobotoMono-Regular";
+    font-size: 1.2rem;
+    color: #fff;
+    padding: 20px;
+    display: block;
+}
+
+.footer-copyright {
+    margin-top: 20px;
+}
+
+.footer-socials {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+footer .icon {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin-right: 15px;
+}
+
+footer .icon:hover, footer .icon:focus{
+    border: 1px #fff solid;
+}
+
+footer .icon.github {
+    background-position-y: 1px;
+    background-size: 90%;
+    background-position-x: 2px;
+}
+footer .icon.unsplash {
+    background-position-y: 4px;
+    background-size: 70%;
+    background-position-x: 6px;
+}
+footer .icon.email {
+    background-position-y: 6px;
+    background-size: 70%;
+    background-position-x: 6px;
+}
+footer .icon.linkedin {
+    background-position-y: 7px;
+    background-size: 65%;
+    background-position-x: 7px;
+}
+footer .icon.twitter {
+    background-position-y: 7px;
+    background-size: 65%;
+    background-position-x: 7px;
+}
+footer .icon.instagram {
+    background-position-y: 6px;
+    background-size: 65%;
+    background-position-x: 7px;
+}
+
+@media only screen and (min-width: 768px) {
+    p {
+        font-size: 1.4rem;
+    }
+
+    .bio-header-desktop {
+        display: block;
+    }
+
+    .bio-header-mobile {
+        display: none;
+    }
+
+    .btn-toggle-scheme {
+        width: 100%;
+        height: 64px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-socials {
+        margin: 0px;
+    }
+
+    .footer-copyright {
+        margin: 0;
+    }
+}
