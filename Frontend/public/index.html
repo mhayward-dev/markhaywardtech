@@ -22,7 +22,8 @@
     <header>
         <nav>
             <div class="nav-wrapper">
-                <a href="#" data-target="mobile-nav" class="sidenav-trigger show-on-small hide-on-med-and-up"><i class="material-icons">menu</i></a>
+                <a href="#" data-target="mobile-nav" class="sidenav-trigger show-on-small hide-on-med-and-up"><i
+                        class="material-icons">menu</i></a>
                 <ul class="right hide-on-small-only">
                     <li class="active"><a href="index.html">about me</a></li>
                     <li><a href="resume.html">resume</a></li>
@@ -40,7 +41,7 @@
                 </div>
             </div>
         </nav>
-    
+
         <ul class="sidenav" id="mobile-nav">
             <li><a href="index.html">about me</a></li>
             <li><a href="resume.html">resume</a></li>
@@ -114,32 +115,44 @@
         <div class="parallax"><img src="images/soho.jpg"></div>
     </div>
 
-<footer>
-    <div class="footer-copyright">
-        © 2021 Mark Hayward
+    <div class="now-playing banner-solid-colour">
+        <div class="now-playing-container">
+            <span class="icon spotify"></span>
+            <div class="song-details">
+                <img class="song-artwork" src='#' style="display: none;">
+                <span class="song-title">No song currently playing</span>
+                <span class="song-artist-album"></span>
+            </div>
+        </div>
     </div>
-    <div class="footer-socials">
-        <a href="https://github.com/mhayward-dev" target="_blank">
-            <span class="circle icon github"></span>
-        </a>
-        <a href="https://twitter.com/mhaywarddev" target="_blank">
-            <span class="circle icon twitter"></span>
-        </a>
-        <a href="https://www.instagram.com/markhayward.ig/" target="_blank">
-            <span class="circle icon instagram"></span>
-        </a>
-        <a href="https://www.linkedin.com/in/mhayward-dev" target="_blank">
-            <span class="circle icon linkedin"></span>
-        </a>
-        <a href="mailto:hello@markhayward.tech" target="_blank">
-            <span class="circle icon email"></span>
-        </a>
-    </div>
-</footer>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
+    <footer>
+        <div class="footer-copyright">
+            © 2021 Mark Hayward
+        </div>
+        <div class="footer-socials">
+            <a href="https://github.com/mhayward-dev" target="_blank">
+                <span class="circle icon github"></span>
+            </a>
+            <a href="https://twitter.com/mhaywarddev" target="_blank">
+                <span class="circle icon twitter"></span>
+            </a>
+            <a href="https://www.instagram.com/markhayward.ig/" target="_blank">
+                <span class="circle icon instagram"></span>
+            </a>
+            <a href="https://www.linkedin.com/in/mhayward-dev" target="_blank">
+                <span class="circle icon linkedin"></span>
+            </a>
+            <a href="mailto:hello@markhayward.tech" target="_blank">
+                <span class="circle icon email"></span>
+            </a>
+        </div>
+    </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/spotify.js"></script>
 </body>
 
 </html>

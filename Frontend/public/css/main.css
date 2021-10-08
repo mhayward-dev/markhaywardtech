@@ -63,6 +63,10 @@
     background-image: url("../images/icons/icon-sun.svg");
     background-repeat: no-repeat;
 }
+.spotify {
+    background-image: url("../images/icons/icon-spotify.svg");
+    background-repeat: no-repeat;
+}
 
 /* base */
 
@@ -245,6 +249,43 @@ nav li {
     font-size: 1.5rem;
     width: 100%;
     display: block;
+}
+
+.now-playing {
+    color: #FFF;
+    padding: 20px;
+}
+
+.now-playing .icon.spotify {
+    height: 40px;
+    width: 40px;
+    background-size: 100%;
+}
+
+.now-playing-header {
+    margin-bottom: 10px;
+}
+
+.now-playing-container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.song-artwork {
+    width: 50px;
+}
+
+.song-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.song-title {
+    font-weight: bold;
+    margin: 0 10px;
 }
 
 /* footer */
