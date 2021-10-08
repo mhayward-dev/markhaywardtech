@@ -308,6 +308,8 @@ footer .icon.instagram {
     background-position-x: 7px;
 }
 
+/* desktop only media query */
+
 @media only screen and (min-width: 768px) {
     p {
         font-size: 1.4rem;
