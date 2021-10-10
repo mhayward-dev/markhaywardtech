@@ -277,7 +277,7 @@ nav li {
 
 .now-playing .now-playing-gif {
     width: 25px;
-    margin-right: 15px;
+    margin-right: 5px;
 }
 
 .now-playing-header {
@@ -295,7 +295,8 @@ nav li {
 }
 
 .song-details {
-    margin-left: 20px;
+    margin-left: 12px;
+    margin-right: 10px;
 }
 
 .song-title {
@@ -385,10 +386,16 @@ footer .icon.instagram {
 
     .now-playing .now-playing-gif {
         width: 40px;
+        margin-right: 15px;
     }
 
     .now-playing .icon.spotify {
         margin-left: 25px;
+    }
+
+    .song-details {
+        margin-left: 20px;
+        margin-right: 0;
     }
 
     footer {
