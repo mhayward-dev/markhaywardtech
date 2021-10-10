@@ -15,6 +15,9 @@ function getToken() {
 }
 
 function showNowPlaying(song) {
+    const nowPlayingGif = document.querySelector('.now-playing-gif');
+    nowPlayingGif.style.display = 'block';
+
     const artworkEl = document.querySelector('.song-artwork');
     artworkEl.style.display = 'block';
     artworkEl.src = song.albumImageUrl;
