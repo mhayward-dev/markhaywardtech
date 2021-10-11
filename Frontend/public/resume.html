@@ -62,7 +62,7 @@
 
     <footer>
         <div class="footer-copyright">
-            © 2021 Mark Hayward
+            &copy; <span id="copyright"></span><script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script></span> Mark Hayward
         </div>
         <div class="footer-socials">
             <a href="https://github.com/mhayward-dev" target="_blank">
@@ -86,7 +86,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </body>
-
-
 
 </html>
