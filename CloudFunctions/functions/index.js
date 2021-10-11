@@ -41,6 +41,7 @@ exports.getSpotifyToken = functions
           data: data,
         })
             .then((r) => {
+              res.set('Cache-Control', 'public, max-age=300, s-maxage=600');
               res.status(200).send(r.data);
             })
             .catch((e) => {
