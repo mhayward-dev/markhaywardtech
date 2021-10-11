@@ -303,6 +303,12 @@ nav li {
     font-weight: bold;
 }
 
+.song-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
 /* footer */
 
 footer {

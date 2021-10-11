@@ -27,6 +27,9 @@ function showNowPlaying(song) {
 
     const artistEl = document.querySelector('.song-artist-album');
     artistEl.textContent = song.artist + ' \u2014 ' + song.album;
+
+    const songLinkEl = document.querySelector('.song-link');
+    songLinkEl.href = song.songUrl;
 }
 
 async function getNowPlaying() {
