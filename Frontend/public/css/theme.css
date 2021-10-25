@@ -1,15 +1,30 @@
 /* light */
 
 body.theme-light {
-    color: #000;
+    color: #FFF;
 }
 
 .theme-light nav {
-    background-color: #263cc2;
+    background-color: #fff;
+    color: black;
+    box-shadow: none;
 }
 
 .theme-light .banner-solid-colour {
     background-color: #263cc2;
+}
+
+.theme-light .bio-header-desktop::before {
+    content: "";
+    position: absolute;
+    height: 800px;
+    width: 100%;
+    z-index: -1;
+    left: 0;
+    background-image: url('../images/backdrop-light.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
 
 .theme-light footer {
@@ -28,7 +43,7 @@ body.theme-dark {
 }
 
 .theme-dark nav {
-    background-color: #3a4556;
+    background-color: #000000;
 }
 
 .theme-dark #mobile-nav {
@@ -41,6 +56,19 @@ body.theme-dark {
 
 .theme-dark .banner-solid-colour {
     background-color: #3a4556;
+}
+
+.theme-dark .bio-header-desktop::before {
+    content: "";
+    position: absolute;
+    height: 800px;
+    width: 100%;
+    z-index: -1;
+    left: 0;
+    background-image: url('../images/backdrop-dark.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
 
 .theme-dark footer {
