@@ -157,13 +157,17 @@ nav li {
 
 /* bio */
 
+.bio-header-mobile {
+    height: 400px;
+} 
+
 .bio-header-desktop {
     display: none;
-    height: 800px;
+    height: 600px;
 }
 
 .bio-details-container {
-    padding-top: 100px;
+    padding-top: 50px;
     display: flex;
     justify-content: center;
 }
@@ -172,15 +176,10 @@ nav li {
     width: 500px;
 }
 
-.bio-header-mobile {
-    margin: 25px 0;
-}
-
 .bio-name {
     font-family: "ContrailOne-Regular";
     font-size: 3rem;
     margin: 0;
-    background: #000;
     padding: 5px;
 }
 
@@ -188,7 +187,6 @@ nav li {
     font-family: "RobotoMono-Regular";
     font-size: 1.4rem;
     margin: 20px 0;
-    background: #000;
     padding: 2px;
 }
 
@@ -196,7 +194,6 @@ nav li {
     font-family: "Roboto-Medium";
     font-size: 1.2rem;
     margin: 20px 0;
-    background: #000;
 }
 
 .bio-header-desktop .bio-profile-image {
@@ -213,7 +210,6 @@ nav li {
 /* socials */
 
 .bio-social {
-    color: #FFF;
     padding: 25px 0;
 }
 
@@ -233,12 +229,12 @@ nav li {
 
 .bio-social-icon a {
     display: block;
-    color: white;
     width: 100%;
     height: 100%;
     text-align: center;
     padding-top: 10px;
 }
+
 .bio-social-icon a:hover, .bio-social-icon a:focus {
     background-color: rgba(0,0,0,0.1);
     text-decoration: none;
@@ -400,6 +396,10 @@ footer .icon.instagram {
 
     .bio-header-mobile {
         display: none;
+    }
+
+    .bio-details-container {
+        padding-top: 100px;
     }
 
     .btn-toggle-scheme {
