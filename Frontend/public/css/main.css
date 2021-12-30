@@ -350,7 +350,7 @@ footer {
 }
 
 .footer-socials a {
-    flex-basis: 15%;
+    flex-basis: 18%;
 }
 
 footer .icon {
@@ -454,6 +454,7 @@ footer .icon.twitch {
     .footer-socials {
        flex-wrap: nowrap;
        margin-top: 20px;
+       margin-bottom: 20px;
     }
 
     .footer-socials a {
