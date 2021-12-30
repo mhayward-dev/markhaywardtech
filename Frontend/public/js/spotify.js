@@ -29,6 +29,7 @@ function showNowPlaying(song) {
     artistEl.textContent = song.artist + ' \u2014 ' + song.album;
 
     const songLinkEl = document.querySelector('.song-link');
+    songLinkEl.style.display = 'block';
     songLinkEl.href = song.songUrl;
 }
 
