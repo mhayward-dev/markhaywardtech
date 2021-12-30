@@ -265,17 +265,19 @@ nav li {
 
 .what-i-am-listening-to {
     padding: 25px;
-    color: #FFF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.what-i-am-listening-to h3 {
+.what-i-am-listening-to h2 {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .now-playing {
-    color: #FFF;
     display: flex;
-    align-items: center;
+    justify-content: center;
     margin-left: -15px;
     margin-right: -15px;
 }
@@ -290,6 +292,7 @@ nav li {
 
 .now-playing .now-playing-gif {
     width: 25px;
+    height: 25px;
     margin-right: 5px;
 }
 
@@ -327,7 +330,6 @@ nav li {
 footer {
     font-family: "RobotoMono-Regular";
     font-size: 1.2rem;
-    color: #fff;
     padding: 20px;
     display: block;
 }
@@ -346,10 +348,8 @@ footer .icon {
     height: 40px;
     width: 40px;
     margin-right: 15px;
-}
-
-footer .icon:hover, footer .icon:focus{
-    border: 1px #fff solid;
+    border: 2px solid transparent;
+    box-sizing: content-box;
 }
 
 footer .icon.github {

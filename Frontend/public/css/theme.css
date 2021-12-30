@@ -2,6 +2,7 @@
 
 body.theme-light {
     color: #363d36;
+    background-color: #ebebed;
 }
 
 .theme-light nav {
@@ -30,6 +31,22 @@ body.theme-light {
     background-image: url("../images/icons/icon-unplash-dark.svg");
     background-repeat: no-repeat;
 }
+.theme-light .twitter {
+    background-image: url("../images/icons/icon-twitter-dark.svg");
+    background-repeat: no-repeat;
+}
+.theme-light .instagram {
+    background-image: url("../images/icons/icon-instagram-dark.svg");
+    background-repeat: no-repeat;
+}
+.theme-light .linkedin {
+    background-image: url("../images/icons/icon-linkedin-dark.svg");
+    background-repeat: no-repeat;
+}
+.theme-light .email {
+    background-image: url("../images/icons/icon-email-dark.svg");
+    background-repeat: no-repeat;
+}
 
 .theme-light .bio-details-container {
     color: #fff;
@@ -37,12 +54,6 @@ body.theme-light {
 
 .theme-light .bio-text-backdrop h1, .theme-light .bio-text-backdrop div  {
     background: #363d36;
-}
-
-.theme-light .banner-solid-colour {
-    background-color: #fff;
-    border-top: 1px solid #000;
-    color: #363d36;
 }
 
 .theme-light .bio-social-icon a {
@@ -75,12 +86,24 @@ body.theme-light {
     background-position: center;
 }
 
-.theme-light footer {
-    background-color: #263cc2;
+.theme-light .now-playing {
+    color: #363d36;
+}
+
+.theme-light .now-playing-gif {
+    background-image: url(../images/now-playing-dark.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.theme-light footer .icon:hover, footer .icon:focus {
+    border: 2px #363d36 solid;
 }
 
 .theme-light p a {
-    color: #263cc2;
+    color: #363d36;
+    text-decoration: underline;
 }
 
 /* dark */
@@ -88,6 +111,10 @@ body.theme-light {
 body.theme-dark {
     color: #fff;
     background-color: #333333;
+}
+
+.theme-dark a {
+    color: #fff;
 }
 
 .theme-dark nav {
@@ -136,12 +163,28 @@ body.theme-dark {
     background-position: center;
 }
 
+.theme-dark .now-playing {
+    color: #fff;
+}
+
+.theme-dark .now-playing-gif {
+    background-image: url(../images/now-playing.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .theme-dark footer {
-    background-color: #3a4556;
+    background-color: #333333;
+}
+
+.theme-dark footer .icon:hover, footer .icon:focus {
+    border: 2px #fff solid;
 }
 
 .theme-dark p a {
-    color: #93dc93;
+    color: #fff;
+    text-decoration: underline;
 }
 
 .theme-dark img {
