@@ -47,6 +47,10 @@ body.theme-light {
     background-image: url("../images/icons/icon-email-dark.svg");
     background-repeat: no-repeat;
 }
+.theme-light .twitch {
+    background-image: url("../images/icons/icon-twitch-dark.svg");
+    background-repeat: no-repeat;
+}
 
 .theme-light .bio-details-container {
     color: #fff;

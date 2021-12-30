@@ -67,6 +67,10 @@
     background-image: url("../images/icons/icon-spotify.svg");
     background-repeat: no-repeat;
 }
+.twitch {
+    background-image: url("../images/icons/icon-twitch.svg");
+    background-repeat: no-repeat;
+}
 
 /* base */
 
@@ -293,7 +297,7 @@ nav li {
 .now-playing .now-playing-gif {
     width: 25px;
     height: 25px;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 .now-playing-header {
@@ -339,15 +343,21 @@ footer {
 }
 
 .footer-socials {
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-socials a {
+    flex-basis: 15%;
 }
 
 footer .icon {
-    display: inline-block;
+    display: inline-flex;
     height: 40px;
     width: 40px;
-    margin-right: 15px;
+  
     border: 2px solid transparent;
     box-sizing: content-box;
 }
@@ -378,6 +388,11 @@ footer .icon.twitter {
     background-position-x: 7px;
 }
 footer .icon.instagram {
+    background-position-y: 6px;
+    background-size: 65%;
+    background-position-x: 7px;
+}
+footer .icon.twitch {
     background-position-y: 6px;
     background-size: 65%;
     background-position-x: 7px;
@@ -437,7 +452,12 @@ footer .icon.instagram {
     }
 
     .footer-socials {
-        margin: 0px;
+       flex-wrap: nowrap;
+       margin-top: 20px;
+    }
+
+    .footer-socials a {
+        margin-right: 15px;
     }
 
     .footer-copyright {
