@@ -9,7 +9,7 @@ function setupTheme(theme) {
   const bodyEl = document.querySelector('body');
   const themeClass = 'theme-' + theme;
   const btnClass = theme === 'light' ? 'moon' : 'sun';
-  //const backdropImg = theme === 'light' ? 'backdrop-light.jpg' : 'backdrop-dark.jpg';
+  const backdropImg = theme === 'light' ? 'backdrop-light.jpg' : 'backdrop-dark.jpg';
 
   bodyEl.classList.remove('theme-light', 'theme-dark');
   bodyEl.classList.add(themeClass);
@@ -20,12 +20,12 @@ function setupTheme(theme) {
     btn.firstElementChild.classList.add(btnClass);
   });
 
-  // var parallaxImgs = document.querySelectorAll('.parallax img');
-  // parallaxImgs.forEach(function (img) {
-  //   img.src = 'images/' + backdropImg;
-  // });
+  var parallaxImgs = document.querySelectorAll('.parallax img');
+  parallaxImgs.forEach(function (img) {
+    img.src = 'images/' + backdropImg;
+  });
 
-  // initParallax();
+  initParallax();
 }
 
 function initParallax() {
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var sidenav = document.querySelectorAll('.sidenav');
   M.Sidenav.init(sidenav, {});
 
-  //initParallax();
+  initParallax();
 
   // toggle light / dark theme
   const currentTheme = localStorage.getItem('theme');
