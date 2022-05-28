@@ -24,6 +24,10 @@ body.theme-light {
     color: #363d36;
     text-decoration: none;
 }
+.theme-light #mobile-nav a {
+    color: #363d36;
+    text-decoration: none;
+}
 
 .theme-light .material-icons {
     color: #000;
@@ -72,6 +76,7 @@ body.theme-light {
 
 .theme-light .bio-social-icon a {
     color: #363d36;
+    text-decoration: none;
 }
 
 .theme-light .bio-header-desktop::before {
@@ -130,6 +135,7 @@ body.theme-dark {
 
 .theme-dark #mobile-nav {
     background-color: #2d2d2d;
+    text-decoration: none;
 }
 
 .theme-dark #mobile-nav li a {
@@ -157,6 +163,11 @@ body.theme-dark {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.theme-dark .bio-social-icon a {
+    color: #fff;
+    text-decoration: none;
 }
 
 .theme-dark .now-playing {
