@@ -345,13 +345,21 @@ nav li {
 
 footer {
     font-family: "RobotoMono-Regular";
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 20px;
     display: block;
 }
 
 .footer-copyright {
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-copyright div {
+    margin-bottom: 5px;
 }
 
 .footer-socials {
@@ -359,10 +367,12 @@ footer {
     margin-bottom: 40px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .footer-socials a {
-    flex-basis: 18%;
+    flex-basis: 25%;
+    max-width: 75px;
 }
 
 footer .icon {
@@ -475,5 +485,8 @@ footer .icon.twitch {
 
     .footer-copyright {
         margin: 0;
+        display: block;
+        text-align: left;
+        padding-right: 100px;
     }
 }
