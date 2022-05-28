@@ -22,6 +22,14 @@
     font-family: "RobotoMono-Regular";
     src: url(../fonts/RobotoMono-Regular.woff2);
 }
+@font-face {
+    font-family: "AveriaSerifLibre-Bold";
+    src: url(../fonts/AveriaSerifLibre-Bold.woff2);
+}
+@font-face {
+    font-family: "AveriaSerifLibre-Regular";
+    src: url(../fonts/AveriaSerifLibre-Regular.woff2);
+}
 
 /* icons */
 
@@ -69,19 +77,19 @@
 /* base */
 
 h1 {
-    font-family: "Roboto-Bold";
+    font-family: "AveriaSerifLibre-Bold";
     font-size: 2.5rem;
     margin: 0;
 }
 
 h2 {
-    font-family: "Roboto-Medium";
+    font-family: "AveriaSerifLibre-Bold";
     font-size: 2rem;
     margin: 0;
 }
 
 h3 {
-    font-family: "Roboto-Medium";
+    font-family: "AveriaSerifLibre-Bold";
     font-size: 1.5rem;
     margin: 0;
 }
@@ -126,7 +134,7 @@ button:focus {
 /* nav */
 
 nav, #mobile-nav {
-    font-family: "RobotoMono-Regular";
+    font-family: "AveriaSerifLibre-Regular";
 }
 
 nav li {
@@ -169,13 +177,13 @@ nav li {
 
 .bio-header-desktop {
     display: none;
-    height: 525px;
+    height: 600px;
 }
 
 .bio-header-desktop::before {
     content: "";
     position: absolute;
-    height: 525px;
+    height: 600px;
     width: 100%;
     z-index: -1;
     left: 0;
@@ -192,21 +200,21 @@ nav li {
 }
 
 .bio-name {
-    font-family: "Roboto-Medium";
+    font-family: "AveriaSerifLibre-Bold";
     font-size: 3rem;
     margin: 0;
     padding: 10px;
 }
 
 .bio-title {
-    font-family: "Roboto-Medium";
+    font-family: "AveriaSerifLibre-Bold";
     font-size: 1.6rem;
     margin: 20px 0;
     padding: 10px;
 }
 
 .bio-location {
-    font-family: "Roboto-Regular";
+    font-family: "AveriaSerifLibre-Bold";
     font-size: 1.2rem;
     margin: 20px 0;
     padding: 10px;
@@ -342,7 +350,7 @@ nav li {
 /* footer */
 
 footer {
-    font-family: "RobotoMono-Regular";
+    font-family: "AveriaSerifLibre-Regular";
     font-size: 1rem;
     padding: 20px;
     display: block;
