@@ -19,6 +19,7 @@ const cors = require('cors')(corsOptions);
 exports.getSpotifyToken = functions
     .region('europe-west2')
     .https.onRequest(async (req, res) => {
+      // wrap in CORS to whitelist who can call our API
       cors(req, res, () => {
       // Supply a refresh token from the Spotify token request API
       // Also allow us to hide our secrets in Firebase environment variables
