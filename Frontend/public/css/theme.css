@@ -65,12 +65,6 @@ body.theme-light {
 }
 
 .theme-light .bio-header-desktop::before {
-    content: "";
-    position: absolute;
-    height: 600px;
-    width: 100%;
-    z-index: -1;
-    left: 0;
     background-image: url('../images/backdrop-light.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
@@ -78,12 +72,6 @@ body.theme-light {
 }
 
 .theme-light .bio-header-mobile::before {
-    content: "";
-    position: absolute;
-    height: 400px;
-    width: 100%;
-    z-index: -1;
-    left: 0;
     background-image: url('../images/backdrop-light.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -142,12 +130,6 @@ body.theme-dark {
 }
 
 .theme-dark .bio-header-desktop::before {
-    content: "";
-    position: absolute;
-    height: 600px;
-    width: 100%;
-    z-index: -1;
-    left: 0;
     background-image: url('../images/backdrop-dark.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -155,12 +137,6 @@ body.theme-dark {
 }
 
 .theme-dark .bio-header-mobile::before {
-    content: "";
-    position: absolute;
-    height: 400px;
-    width: 100%;
-    z-index: -1;
-    left: 0;
     background-image: url('../images/backdrop-dark.jpg');
     background-repeat: no-repeat;
     background-size: cover;

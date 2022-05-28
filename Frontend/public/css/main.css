@@ -116,8 +116,7 @@ button:focus {
 /* helper classes */
 
 .section {
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin: 15px auto 15px auto;
 }
 
 .banner-image {
@@ -156,12 +155,30 @@ nav li {
 /* bio */
 
 .bio-header-mobile {
-    height: 400px;
+    height: 450px;
 } 
+
+.bio-header-mobile::before {
+    content: "";
+    position: absolute;
+    height: 450px;
+    width: 100%;
+    z-index: -1;
+    left: 0;
+}
 
 .bio-header-desktop {
     display: none;
-    height: 600px;
+    height: 525px;
+}
+
+.bio-header-desktop::before {
+    content: "";
+    position: absolute;
+    height: 525px;
+    width: 100%;
+    z-index: -1;
+    left: 0;
 }
 
 .bio-details-container {
@@ -178,20 +195,21 @@ nav li {
     font-family: "Roboto-Medium";
     font-size: 3rem;
     margin: 0;
-    padding: 5px;
+    padding: 10px;
 }
 
 .bio-title {
     font-family: "Roboto-Medium";
     font-size: 1.6rem;
     margin: 20px 0;
-    padding: 2px;
+    padding: 10px;
 }
 
 .bio-location {
     font-family: "Roboto-Regular";
     font-size: 1.2rem;
     margin: 20px 0;
+    padding: 10px;
 }
 
 .bio-header-desktop .bio-profile-image {
@@ -399,6 +417,10 @@ footer .icon.twitch {
         font-size: 1.4rem;
     }
 
+    .section {
+        margin: 25px auto 25px auto;
+    }
+
     .bio-header-desktop {
         display: block;
     }
@@ -408,7 +430,7 @@ footer .icon.twitch {
     }
 
     .bio-details-container {
-        padding-top: 100px;
+        padding-top: 85px;
     }
 
     .btn-toggle-scheme {
