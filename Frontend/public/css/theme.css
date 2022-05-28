@@ -11,6 +11,10 @@ body.theme-light {
     box-shadow: none;
 }
 
+.theme-light nav ul li.active {
+    background-color: #ddd;
+}
+
 .theme-light a {
     color: #363d36;
     text-decoration: underline;
@@ -113,6 +117,10 @@ body.theme-dark {
 
 .theme-dark nav {
     background-color: #2d2d2d;
+}
+
+.theme-dark nav ul li.active {
+    background-color: #232323;
 }
 
 .theme-dark nav a {

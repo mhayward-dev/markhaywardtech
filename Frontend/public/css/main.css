@@ -226,7 +226,7 @@ nav li {
 /* socials */
 
 .bio-social {
-    padding: 25px 0;
+    padding: 50px 0;
 }
 
 .bio-social-header {
@@ -280,7 +280,7 @@ nav li {
 /* now listening widget */
 
 .what-i-am-listening-to {
-    padding: 25px;
+    padding: 50px 0;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -373,6 +373,7 @@ footer {
 .footer-socials a {
     flex-basis: 25%;
     max-width: 75px;
+    text-align: center;
 }
 
 footer .icon {

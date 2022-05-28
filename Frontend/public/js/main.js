@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var sidenav = document.querySelectorAll('.sidenav');
   M.Sidenav.init(sidenav, {});
 
-  initParallax();
+  //initParallax();
 
   // toggle light / dark theme
   const currentTheme = localStorage.getItem('theme');
