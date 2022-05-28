@@ -1,32 +1,26 @@
 @font-face {
-    font-family: "ContrailOne-Regular";
-    src: url(../fonts/ContrailOne-Regular.ttf);
-}
-
-@font-face {
-    font-family: "RobotoMono-Regular";
-    src: url(../fonts/RobotoMono-Regular.ttf);
-}
-
-@font-face {
     font-family: "Roboto-Light";
-    src: url(../fonts/Roboto-Light.ttf);
+    src: url(../fonts/Roboto-Light.woff2);
 }
 @font-face {
     font-family: "Roboto-Thin";
-    src: url(../fonts/Roboto-Thin.ttf);
+    src: url(../fonts/Roboto-Thin.woff2);
 }
 @font-face {
     font-family: "Roboto-Regular";
-    src: url(../fonts/Roboto-Regular.ttf);
+    src: url(../fonts/Roboto-Regular.woff2);
 }
 @font-face {
     font-family: "Roboto-Medium";
-    src: url(../fonts/Roboto-Medium.ttf);
+    src: url(../fonts/Roboto-Medium.woff2);
 }
 @font-face {
     font-family: "Roboto-Bold";
-    src: url(../fonts/Roboto-Bold.ttf);
+    src: url(../fonts/Roboto-Bold.woff2);
+}
+@font-face {
+    font-family: "RobotoMono-Regular";
+    src: url(../fonts/RobotoMono-Regular.woff2);
 }
 
 /* icons */
@@ -75,19 +69,19 @@
 /* base */
 
 h1 {
-    font-family: "ContrailOne-Regular";
+    font-family: "Roboto-Bold";
     font-size: 2.5rem;
     margin: 0;
 }
 
 h2 {
-    font-family: "ContrailOne-Regular";
+    font-family: "Roboto-Medium";
     font-size: 2rem;
     margin: 0;
 }
 
 h3 {
-    font-family: "ContrailOne-Regular";
+    font-family: "Roboto-Medium";
     font-size: 1.5rem;
     margin: 0;
 }
@@ -181,21 +175,21 @@ nav li {
 }
 
 .bio-name {
-    font-family: "ContrailOne-Regular";
+    font-family: "Roboto-Medium";
     font-size: 3rem;
     margin: 0;
     padding: 5px;
 }
 
 .bio-title {
-    font-family: "RobotoMono-Regular";
-    font-size: 1.4rem;
+    font-family: "Roboto-Medium";
+    font-size: 1.6rem;
     margin: 20px 0;
     padding: 2px;
 }
 
 .bio-location {
-    font-family: "Roboto-Medium";
+    font-family: "Roboto-Regular";
     font-size: 1.2rem;
     margin: 20px 0;
 }
