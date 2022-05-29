@@ -20,10 +20,10 @@ function setupTheme(theme) {
     btn.firstElementChild.classList.add(btnClass);
   });
 
-  var parallaxImgs = document.querySelectorAll('.parallax img');
-  parallaxImgs.forEach(function (img) {
-    img.src = 'images/' + backdropImg;
-  });
+  // var parallaxImgs = document.querySelectorAll('.parallax img');
+  // parallaxImgs.forEach(function (img) {
+  //   img.src = 'images/' + backdropImg;
+  // });
 
   //initParallax();
 }

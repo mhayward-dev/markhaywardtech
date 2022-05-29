@@ -45,7 +45,6 @@ function fetchNowPlaying(token) {
 
 function fetchRecentlyPlayed(token) {
     getSpotifyRequest(token, 'https://api.spotify.com/v1/me/player/recently-played', function (response) {
-        console.log(response.data.items);
         const playedItems = filterRecentlyPlayed(response.data.items).slice(0,6);
 
         playedItems.forEach(function (item) {
