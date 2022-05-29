@@ -291,14 +291,14 @@ nav li {
 
 /* now listening widget */
 
-.what-i-am-listening-to {
+.currently-playing {
     padding: 50px 0;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-.what-i-am-listening-to h2 {
+.currently-playing h2 {
     margin-bottom: 20px;
     text-align: center;
 }
@@ -314,12 +314,13 @@ nav li {
     background-size: 100%;
     margin-left: auto;
     margin-top: auto;
+    margin-right: 10px;
 }
 
 .now-playing .now-playing-gif {
     width: 25px;
     height: 25px;
-    margin-right: 10px;
+    margin: 0 10px;
 }
 
 .now-playing-header {
@@ -349,6 +350,44 @@ nav li {
     display: block;
     width: 100%;
     height: 100%;
+}
+
+.recently-played {
+    padding: 50px 0;
+}
+
+.recently-played-songs {
+    opacity: 0;
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+.recently-played-songs.visible {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+}
+
+.recently-played h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.recently-played .song {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    margin-bottom: 15px;
 }
 
 /* footer */

@@ -25,13 +25,25 @@ function setupTheme(theme) {
     img.src = 'images/' + backdropImg;
   });
 
-  initParallax();
+  //initParallax();
 }
 
-function initParallax() {
-  var parallax = document.querySelectorAll('.parallax');
-  M.Parallax.init(parallax, {});
+function initScrollMagic() {
+  const controller = new ScrollMagic.Controller();
+  new ScrollMagic.Scene({
+    triggerElement: ".recently-played-songs",
+    triggerHook: 0.9,
+    offset: 50,
+    reverse: false
+  })
+  .setClassToggle(".recently-played-songs", "visible") // add class to reveal
+  .addTo(controller);
 }
+
+// function initParallax() {
+//   var parallax = document.querySelectorAll('.parallax');
+//   M.Parallax.init(parallax, {});
+// }
 
 document.addEventListener('DOMContentLoaded', function () {
   // setup material ui components
@@ -39,6 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
   M.Sidenav.init(sidenav, {});
 
   //initParallax();
+  initScrollMagic()
 
   // toggle light / dark theme
   const currentTheme = localStorage.getItem('theme');
