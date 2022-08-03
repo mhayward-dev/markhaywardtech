@@ -189,6 +189,6 @@ body.theme-dark {
     border: 2px #fff solid;
 }
 
-.theme-dark img {
+/* .theme-dark img {
     filter: brightness(.8) contrast(1.2);
-}
+} */
