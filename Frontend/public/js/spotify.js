@@ -53,7 +53,7 @@ function fetchRecentlyPlayed(token) {
             const album = song.album.name
 
             const songEl = `<div class="song col s12 m12 l6 xl4">
-                <img class="song-artwork" src='${song.album.images[0].url}'>
+                <img class="song-artwork" src='${song.album.images[2].url}'>
                 <div class="song-details">
                     <div class="song-title">${song.name}</div>
                     <div class="song-artist-album">${artist} \u2014 ${album}</div>
