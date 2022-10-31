@@ -99,6 +99,11 @@ p {
     font-size: 1.2rem;
 }
 
+ul {
+    font-family: "Roboto-Regular";
+    font-size: 1.2rem;
+}
+
 p a:hover {
     text-decoration: underline;
 }
@@ -338,6 +343,8 @@ nav li {
 }
 
 .song-details {
+    height: 90xp;
+    overflow: hidden;
     margin-left: 12px;
     margin-right: 10px;
 }
@@ -473,7 +480,7 @@ footer .icon.twitch {
 /* desktop only media query */
 
 @media only screen and (min-width: 768px) {
-    p {
+    p, ul {
         font-size: 1.4rem;
     }
 
