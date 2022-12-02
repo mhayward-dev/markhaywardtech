@@ -480,6 +480,10 @@ footer .icon.twitch {
 /* desktop only media query */
 
 @media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 4rem;
+    }
+
     p, ul {
         font-size: 1.4rem;
     }
@@ -498,6 +502,14 @@ footer .icon.twitch {
 
     .bio-details-container {
         padding-top: 75px;
+    }
+
+    .bio-title {
+        font-size: 2rem;
+    }
+
+    .bio-location {
+        font-size: 1.5rem;
     }
 
     .btn-toggle-scheme {

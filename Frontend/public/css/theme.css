@@ -67,11 +67,8 @@ body.theme-light {
 }
 
 .theme-light .bio-details-container {
-    color: #fff;
-}
-
-.theme-light .bio-text-backdrop h1, .theme-light .bio-text-backdrop div  {
-    background: #363d36;
+    color: #363d36;
+    text-shadow: 1px 1px 2px white, 0 0 1em white;
 }
 
 .theme-light .bio-social-icon a {
@@ -145,10 +142,6 @@ body.theme-dark {
 
 .theme-dark .banner-solid-colour {
     background-color: #2d2d2d;
-}
-
-.theme-dark .bio-text-backdrop h1, .theme-dark .bio-text-backdrop div  {
-    background: #2d2d2d;
 }
 
 .theme-dark .bio-header-desktop::before {
