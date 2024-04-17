@@ -45,8 +45,8 @@ body.theme-light {
     background-image: url("../images/icons/icon-unplash-dark.svg");
     background-repeat: no-repeat;
 }
-.theme-light .twitter {
-    background-image: url("../images/icons/icon-twitter-dark.svg");
+.theme-light .x {
+    background-image: url("../images/icons/icon-x-dark.svg");
     background-repeat: no-repeat;
 }
 .theme-light .instagram {

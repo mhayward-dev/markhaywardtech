@@ -45,8 +45,8 @@
     background-image: url("../images/icons/icon-email.svg");
     background-repeat: no-repeat;
 }
-.twitter {
-    background-image: url("../images/icons/icon-twitter.svg");
+.x {
+    background-image: url("../images/icons/icon-x.svg");
     background-repeat: no-repeat;
 }
 .instagram {
@@ -461,9 +461,9 @@ footer .icon.linkedin {
     background-size: 65%;
     background-position-x: 7px;
 }
-footer .icon.twitter {
+footer .icon.x {
     background-position-y: 7px;
-    background-size: 65%;
+    background-size: 70%;
     background-position-x: 7px;
 }
 footer .icon.instagram {

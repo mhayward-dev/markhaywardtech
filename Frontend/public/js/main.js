@@ -19,13 +19,6 @@ function setupTheme(theme) {
     btn.firstElementChild.classList.remove('sun', 'moon');
     btn.firstElementChild.classList.add(btnClass);
   });
-
-  // var parallaxImgs = document.querySelectorAll('.parallax img');
-  // parallaxImgs.forEach(function (img) {
-  //   img.src = 'images/' + backdropImg;
-  // });
-
-  //initParallax();
 }
 
 function initScrollMagic() {
@@ -40,17 +33,11 @@ function initScrollMagic() {
   .addTo(controller);
 }
 
-// function initParallax() {
-//   var parallax = document.querySelectorAll('.parallax');
-//   M.Parallax.init(parallax, {});
-// }
-
 document.addEventListener('DOMContentLoaded', function () {
   // setup material ui components
   var sidenav = document.querySelectorAll('.sidenav');
   M.Sidenav.init(sidenav, {});
 
-  //initParallax();
   initScrollMagic()
 
   // toggle light / dark theme
