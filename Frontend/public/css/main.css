@@ -230,13 +230,16 @@ nav li {
 }
 
 .bio-header-desktop .bio-profile-image {
-    height: 115px;
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
     margin-bottom: 30px;
 }
 
 .bio-header-mobile .bio-profile-image {
     height: 100px;
     width: 100px;
+    object-fit: cover;
     margin: 15px 0;
 }
 
